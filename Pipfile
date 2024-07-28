@@ -1,0 +1,22 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+sanic = "*"
+xeno = "*"
+dataclass-wizard = {extras = ["yaml"], version = "*"}
+openmeteo-requests = "*"
+pandas = "*"
+requests-cache = "*"
+retry-requests = "*"
+
+[dev-packages]
+neovim = "*"
+black = "*"
+shortuuid = "*"
+isort = "*"
+
+[requires]
+python_version = "3.12"
